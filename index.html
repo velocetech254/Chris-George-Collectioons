@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f0e7">
+    <meta name="description" content="Discover thoughtfully chosen dresses and women's shoes at Chris George Collections. Find your next favorite look.">
+    <title>Chris George Collections — Find your next favorite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="web3forms-config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement">A little something lovely for your everyday <span aria-hidden="true">✳</span> Explore the collection</div>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Chris George Collections home">
+        <span class="brand-name">CHRIS GEORGE</span>
+        <span class="brand-subtitle">C O L L E C T I O N S</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#new-arrivals">New arrivals</a>
+        <a href="#shop" data-filter-link="Dresses">Dresses</a>
+        <a href="#shop" data-filter-link="Shoes">Shoes</a>
+        <a href="#our-story">Our story</a>
+      </nav>
+      <button class="cart-trigger" type="button" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+        <span class="cart-label">Bag</span><span class="cart-count" aria-live="polite">0</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="Featured collections">
+        <div class="hero-slides">
+          <article class="hero-slide is-active" style="--slide-image: url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=2200&q=85')" aria-hidden="false">
+            <div class="hero-copy">
+              <p class="eyebrow">A wardrobe that feels like you</p>
+              <h1>Feel lovely.<br><em>Every single day.</em></h1>
+              <p>Thoughtful dresses and shoes for wherever life takes you.</p>
+              <a class="button button-light" href="#shop">Find your favorite <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="slide-caption">The everyday edit · 01</span>
+          </article>
+          <article class="hero-slide" style="--slide-image: url('https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=2200&q=85')" aria-hidden="true">
+            <div class="hero-copy">
+              <p class="eyebrow">Made for your moments</p>
+              <h2>A dress for<br><em>the way you feel.</em></h2>
+              <p>Easy-to-love silhouettes, ready for real life.</p>
+              <a class="button button-light" href="#shop" data-filter-link="Dresses">Explore dresses <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="slide-caption">The dress collection · 02</span>
+          </article>
+          <article class="hero-slide" style="--slide-image: url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=2200&q=85')" aria-hidden="true">
+            <div class="hero-copy">
+              <p class="eyebrow">The perfect finishing touch</p>
+              <h2>Step out<br><em>in your own style.</em></h2>
+              <p>Meet the shoes that make the whole outfit.</p>
+              <a class="button button-light" href="#shop" data-filter-link="Shoes">Shop women's shoes <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="slide-caption">The shoe collection · 03</span>
+          </article>
+        </div>
+        <div class="hero-controls">
+          <button class="slide-arrow slide-prev" type="button" aria-label="Previous slide">←</button>
+          <div class="slide-dots" aria-label="Choose a slide">
+            <button class="slide-dot is-active" type="button" aria-label="Show slide 1" aria-current="true"></button>
+            <button class="slide-dot" type="button" aria-label="Show slide 2"></button>
+            <button class="slide-dot" type="button" aria-label="Show slide 3"></button>
+          </div>
+          <button class="slide-arrow slide-next" type="button" aria-label="Next slide">→</button>
+        </div>
+      </section>
+
+      <section class="intro section-wrap" id="our-story">
+        <p class="eyebrow">A little more you</p>
+        <h2>Good style should feel <em>good, too.</em></h2>
+        <p>Pieces you'll reach for, looks you'll make your own, and a little more joy in getting dressed.</p>
+      </section>
+
+      <section class="shop-section section-wrap" id="shop">
+        <div class="section-heading" id="new-arrivals">
+          <div>
+            <p class="eyebrow">Find your new favorite</p>
+            <h2>Lovely things, <em>picked for you.</em></h2>
+          </div>
+          <a class="text-link" href="#shop">Explore the collection <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter products">
+          <button class="filter-button is-active" type="button" data-filter="All" aria-pressed="true">Everything</button>
+          <button class="filter-button" type="button" data-filter="Dresses" aria-pressed="false">Dresses</button>
+          <button class="filter-button" type="button" data-filter="Shoes" aria-pressed="false">Women's shoes</button>
+        </div>
+        <div class="product-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="story-banner section-wrap">
+        <div class="story-image" role="img" aria-label="A woman wearing a chic neutral dress outdoors"></div>
+        <div class="story-copy">
+          <p class="eyebrow">The Chris George feeling</p>
+          <h2>Style is yours<br>to <em>make your own.</em></h2>
+          <p>Whether you're dressing up or keeping it easy, find pieces that feel just right for you.</p>
+          <a class="button button-navy" href="#shop">Shop the collection <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="newsletter section-wrap">
+        <p class="eyebrow">A lovely note from us</p>
+        <h2>Stay in the <em>know.</em></h2>
+        <p>New arrivals, outfit inspiration, and little things worth looking forward to.</p>
+        <form class="newsletter-form">
+          <label class="visually-hidden" for="newsletter-email">Your email address</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+          <button class="button button-navy" type="submit">Count me in <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="newsletter-message" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <main class="order-confirmation section-wrap" id="order-confirmation" hidden>
+      <p class="eyebrow">One last step</p>
+      <h1 tabindex="-1">Your order email is <em>on its way.</em></h1>
+      <p class="confirmation-intro">The email service accepted your order for delivery to the shop. Email providers do not guarantee inbox delivery, so we’ll confirm your order using the details you provided.</p>
+      <div class="confirmation-card">
+        <p class="confirmation-reference">Order reference <strong id="confirmation-reference"></strong></p>
+        <h2>Order details</h2>
+        <p id="confirmation-customer"></p>
+        <div id="confirmation-items"></div>
+        <div class="confirmation-total"><span>Subtotal</span><strong id="confirmation-total"></strong></div>
+      </div>
+      <div class="confirmation-actions">
+        <a class="button button-navy" id="email-order" href="#">Email a copy of this order <span aria-hidden="true">↗</span></a>
+        <button class="return-home" type="button">Return to homepage</button>
+      </div>
+      <p class="confirmation-contact">Need help? <a href="mailto:edwinmwenda252@gmail.com">edwinmwenda252@gmail.com</a></p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="Logo.jpeg" alt="Chris George Boutique Collections logo" width="90" height="90">
+        <div>
+          <a class="brand-name" href="#">CHRIS GEORGE</a>
+          <p>Find your lovely.</p>
+        </div>
+      </div>
+      <p class="footer-note">Dresses and women's shoes to make getting dressed a little more lovely.</p>
+      <div class="footer-contact"><a href="mailto:edwinmwenda252@gmail.com">edwinmwenda252@gmail.com</a></div>
+      <div class="footer-bottom"><span>© 2026 Chris George Collections</span><a href="#main">Back to top ↑</a></div>
+    </footer>
+
+    <div class="drawer-backdrop" hidden></div>
+    <aside class="cart-drawer" aria-label="Shopping bag" aria-hidden="true" inert>
+      <div class="drawer-heading">
+        <div><p class="eyebrow">Your picks</p><h2>Your bag <span class="drawer-count">(0)</span></h2></div>
+        <button class="drawer-close" type="button" aria-label="Close shopping bag">×</button>
+      </div>
+      <div class="cart-items"></div>
+      <p class="cart-empty">Your bag is waiting for something lovely.</p>
+      <div class="drawer-bottom">
+        <div class="cart-total"><span>Subtotal</span><strong>KSh 0</strong></div>
+        <form class="order-form">
+          <p class="order-note">Prices are sample estimates; confirm final details with us. Your email includes each item's photo link and price.</p>
+          <label for="customer-name">Your name <span aria-hidden="true">*</span></label>
+          <input id="customer-name" name="name" type="text" autocomplete="name" required>
+          <label for="customer-phone">Phone number <span aria-hidden="true">*</span></label>
+          <input id="customer-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0712 345 678" title="Enter a Kenyan mobile number, for example 0712 345 678 or +254712345678." required>
+          <label for="customer-email">Email address <span aria-hidden="true">*</span></label>
+          <input id="customer-email" name="email" type="email" autocomplete="email" required>
+          <button class="button button-navy email-order" type="submit" disabled>Email my order <span aria-hidden="true">↗</span></button>
+          <p class="order-status" role="status" aria-live="polite"></p>
+          <div class="order-fallback" hidden>
+            <p>If automatic email ordering is unavailable, open your email app with this order:</p>
+            <a class="manual-email" href="#">Email the shop instead</a>
+          </div>
+        </form>
+        <a class="continue-shopping" href="#shop">Keep browsing</a>
+      </div>
+    </aside>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
